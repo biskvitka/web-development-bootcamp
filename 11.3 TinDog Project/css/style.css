@@ -1,0 +1,108 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+.btn {
+  margin-right: 10px;
+
+}
+
+h1{
+  color: black;
+}
+
+.features-icon {
+  /* background-color: gainsboro; */
+  padding: 2.5%;
+  border-radius: 20%;
+  margin-right: 15px;
+}
+
+#label-img{
+  height: 30px;
+  width: 6em;
+}
+#features {
+  margin-top: 5rem;
+  margin-bottom: 8em;
+}
+
+.testimonial-container{
+  display: flex;
+  justify-content: space-evenly;
+  height: 30px;
+  margin-top: 50px;
+}
+
+#testimonial {
+  padding-top: 3em;
+  padding-bottom: 3em;
+  background-color: rgba(0, 0, 0, 0.03)
+}
+#dog-img{
+  display: flex;
+  border-radius: 50%;
+  height: 100px;
+  margin-top: 5%;
+  margin-bottom: 2%;
+  justify-self: center;
+}
+
+#dog-p{
+  display: flex;
+  justify-self: center;
+}
+
+.container {
+  padding-top:0 !important;
+  padding-bottom:0 !important;
+  width: 180 !important;
+}
+
+.row {
+  padding-top: 5rem !important;
+  padding-bottom: 0 !important;
+}
+
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.pricing{
+  height: 30px;
+}
+
+#pricing {
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
+}
+
+#link-footer {
+  color: #6c757d;
+}
+
+h5{
+  color: #343a40;
+}
